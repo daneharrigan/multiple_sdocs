@@ -22,12 +22,12 @@ h3. Assumptions
 
 I'm assuming you're not scared of JSON. The config file is a JSON document:
 
-<code><pre>
+<pre><code>
 {
   "subdomain": "your-github-username",
   "repositories": ["doc-1","doc-2","doc-3"]
 }
-</pre></code>
+</code></pre>
 
 This code assumes your gem source exists in your Github directory.
 
