@@ -17,3 +17,17 @@ Great question! You can use this code with the following steps:
 2. Move your SDoc's into the @multiple_sdocs@ directory as the name of the gem (@mv thread_so_safe/rdoc multiple_sdocs/thread_so_safe@)
 3. Update your @config.json@ file in the @multiple_sdocs@ directory
 4. Put @multiple_sdocs@ where ever you'd like (in my case "daneharrigan.github.com":http://daneharrigan.github.com)
+
+h3. Assumptions
+
+I'm assuming you're not scared of JSON. The config file is a JSON document:
+
+<code><pre>
+{
+  "subdomain": "your-github-username",
+  "repositories": ["doc-1","doc-2","doc-3"]
+}
+</pre></code>
+
+This code assumes your gem source exists in your Github directory.
+
