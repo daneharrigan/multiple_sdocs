@@ -13,7 +13,7 @@ h3. How do I use it?
 
 Great question! You can use this code with the following steps:
 
- 1. Clone this repository (@git clone git://github.com/daneharrigan/multiple_sdocs.git@)
- 2. Move your SDoc's into the @multiple_sdocs@ directory as the name of the gem (@mv thread_so_safe/rdoc multiple_sdocs/thread_so_safe@)
- 3. Update your @config.json@ file in the @multiple_sdocs@ directory
- 4. Put @multiple_sdocs@ where ever you'd like (in my case "daneharrigan.github.com":http://daneharrigan.github.com)
+1. Clone this repository (@git clone git://github.com/daneharrigan/multiple_sdocs.git@)
+2. Move your SDoc's into the @multiple_sdocs@ directory as the name of the gem (@mv thread_so_safe/rdoc multiple_sdocs/thread_so_safe@)
+3. Update your @config.json@ file in the @multiple_sdocs@ directory
+4. Put @multiple_sdocs@ where ever you'd like (in my case "daneharrigan.github.com":http://daneharrigan.github.com)
